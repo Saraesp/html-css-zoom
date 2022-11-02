@@ -57,13 +57,23 @@ main{
     width: 100%;
     height: 100px;
     position: relative;
-    background-color: red;
 }
 
 .image img{
     width: 100%;
     height: 100%;
 }
+
+.text-img{
+    color: white;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(62, 61, 61, 0.71);
+    font-size: 13px;
+}
+
 /*FOOTER*/
 .background-grey{
     background-color: rgb(38, 37, 37);
